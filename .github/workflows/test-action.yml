@@ -50,7 +50,7 @@ jobs:
       statuses: none
     name: Install chart-releaser and run it
     steps:
-    - uses: actions/checkout@7
+    - uses: actions/checkout@v7
     - name: Install chart-releaser
       uses: ./
       env:
